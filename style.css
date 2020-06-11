@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Articulat CF Extra Light";
+    font-style: light;
+    src: url("ArticulatCF-ExtraLight.woff2") format("woff2"),
+         url("ArticulatCF-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Articulat CF Medium";
+    font-style: light;
+    src: url("ArticulatCF-Medium.woff2") format("woff2"),
+         url("ArticulatCF-Medium.woff") format("woff");
+}
+
+body {
+    background-color: #202020;
+    display: flex;
+}
+
+#counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 730px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+#counter-header, #counter-footer {
+    color: #C8C8C8;
+    font: 38pt "Articulat CF Extra Light", sans-serif;
+}
+
+#counter-text {
+    color: #FFF;
+    font: 95pt "Articulat CF Medium", sans-serif;
+}
