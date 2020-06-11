@@ -1,4 +1,4 @@
-let reset = new Date(2020,5,10,13,8,45);
+let reset = Date.UTC(2020,5,10,19,8,45);
 
 daysSinceReset = () => {
     let daysSince = (Date.now() - reset) / 1000 / 60 / 60 / 24;
