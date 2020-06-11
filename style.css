@@ -21,7 +21,9 @@
 body {
     background-color: #202020;
     display: flex;
-    height: 100%; // thanks, Gecko
+    /* THANKS, GECKO */
+    height: 100%;
+    margin: 0;
 }
 
 #counter-container {
