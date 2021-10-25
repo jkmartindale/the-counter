@@ -32,6 +32,7 @@ body {
     width: 730px;
     margin: auto;
     text-align: center;
+    text-transform: lowercase;
 }
 
 #counter-header, #counter-footer {
