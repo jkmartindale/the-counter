@@ -1,4 +1,5 @@
 {
+    "github": { "silent": true },
     "routes": [
         { "handle": "filesystem"},
         { "src": "/.*", "status": 302, "dest": "/" }
