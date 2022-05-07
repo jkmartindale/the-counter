@@ -1,8 +1,8 @@
-let reset = new Date("2021-10-24T08:12:50.119Z");
+let reset = new Date("2022-05-07T17:48Z");
 
 daysSinceReset = () => {
     let daysSince = (Date.now() - reset) / 1000 / 60 / 60 / 24;
-    
+
     if (daysSince < 1) {
         return daysSince.toFixed(4);
     }
